@@ -1,0 +1,19 @@
+version: '3'
+services:
+  dynomite:
+    image: v1r3n/dynomite
+    ports:
+    - 8102:8102
+    - 22222:22222
+    logging:
+      driver: none
+    networks:
+    - custom
+
+networks:
+  custom:
+    driver: bridge
+    ipam:
+      driver: default
+      config:
+      - subnet: 192.167.60.0/16
