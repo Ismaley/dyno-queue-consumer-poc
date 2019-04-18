@@ -1,2 +1,4 @@
 # dyno-queue-consumer-poc
-simple configuration and usage of dynoQueues
+simple example of configuration and usage of dynoQueues
+
+dynomite configurations by [emersonborges](https://github.com/emersonborges)
